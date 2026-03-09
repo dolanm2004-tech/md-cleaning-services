@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M&D Cleaning Services</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0b0f16;
+color:white;
+}
+
+header{
+background:#111;
+height:420px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+margin:10px 0;
+}
+
+.btn{
+background:#00aaff;
+padding:15px 30px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+margin:10px;
+display:inline-block;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:#141c26;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.card h3{
+color:#00aaff;
+}
+
+.contact{
+text-align:center;
+}
+
+.phone{
+font-size:36px;
+font-weight:bold;
+color:#00aaff;
+}
+
+.booking{
+background:#141c26;
+padding:40px;
+border-radius:10px;
+}
+
+form{
+display:grid;
+gap:15px;
+}
+
+input, textarea{
+padding:12px;
+border-radius:6px;
+border:none;
+}
+
+button{
+padding:15px;
+background:#00aaff;
+color:white;
+border:none;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+}
+
+footer{
+background:#05080d;
+padding:20px;
+text-align:center;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>M&D Cleaning Services</h1>
+<p>Professional • Reliable • Spotless</p>
+
+<a class="btn" href="#booking">Book Cleaning</a>
+<a class="btn" href="tel:7246784084">Call 724-678-4084</a>
+
+</header>
+
+<section>
+
+<h2>About Us</h2>
+
+<p>
+M&D Cleaning Services provides reliable residential and commercial cleaning.
+We focus on quality, attention to detail, and making every space spotless.
+</p>
+
+</section>
+
+<section>
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Residential Cleaning</h3>
+<p>Full home cleaning including kitchens, bathrooms and floors.</p>
+</div>
+
+<div class="card">
+<h3>Commercial Cleaning</h3>
+<p>Professional cleaning for offices and businesses.</p>
+</div>
+
+<div class="card">
+<h3>Move In / Move Out</h3>
+<p>Perfect for tenants and landlords preparing properties.</p>
+</div>
+
+<div class="card">
+<h3>Deep Cleaning</h3>
+<p>Extra detailed cleaning for homes needing a refresh.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Book a Cleaning</h2>
+
+<div class="booking">
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Address">
+
+<input type="date">
+
+<textarea placeholder="Tell us about the cleaning you need"></textarea>
+
+<button type="submit">Submit Booking Request</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<div class="phone">724-678-4084</div>
+
+</section>
+
+<footer>
+
+<p>M&D Cleaning Services</p>
+<p>Professional • Reliable • Spotless</p>
+<p>Phone: 724-678-4084</p>
+
+</footer>
+
+</body>
+</html>
